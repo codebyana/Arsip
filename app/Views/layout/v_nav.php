@@ -62,7 +62,7 @@
 
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> E-Document</a></li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> E-Arsip</a></li>
                 <li class="active"><?= $title ?></li>
             </ol>
         </section>

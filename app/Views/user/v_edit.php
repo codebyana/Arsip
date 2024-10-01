@@ -45,8 +45,9 @@
                     <select name="level" class="form-control">
                         <option value="<?= $user['level'] ?>"><?php if ($user['level'] == 1) {
                                                                     echo 'Admin';
-                                                                } ?></option>
+                                                                } else echo 'User' ?></option>
                         <option value="1">Admin</option>
+                        <option value="2">User</option>
 
                     </select>
                 </div>

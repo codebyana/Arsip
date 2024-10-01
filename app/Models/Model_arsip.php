@@ -13,6 +13,7 @@ class Model_arsip extends Model
             ->join('tbl_user', 'tbl_user.id_user = tbl_arsip.id_user', 'left')
             ->join('tbl_kategori', 'tbl_kategori.id_kategori = tbl_arsip.id_kategori', 'left')
             ->orderBy('id_arsip', 'DESC')
+            ->where('tbl_arsip.id_user', session()->get('id_user'))
             ->get()
             ->getResultArray();
     }
@@ -46,7 +47,4 @@ class Model_arsip extends Model
             ->where('id_arsip', $data['id_arsip'])
             ->delete($data);
     }
-
-    
-    
 }

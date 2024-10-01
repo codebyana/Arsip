@@ -34,7 +34,7 @@
         <br>
         <br>
         <div class="login-logo">
-            <a href="<?= base_url() ?>"><b>E-Document</b> Jawabarat</a>
+            <a href="<?= base_url() ?>"><b>E-Arsip</b> INSTANSI DISPORA BANDA ACEH</a>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
